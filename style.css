@@ -89,6 +89,7 @@ p {
 .div-header a:hover{
     color: #c51111;
     transition: 0.5s ease-in-out;
+    
 }
 
 .chama-no-zap {
@@ -154,13 +155,14 @@ form textarea {
 @media(max-width:1100px) {
 
     .logo-lem {
-    display: none;
-}
+        display: none;
+    }
 
     .div-principal{
-    padding: 30px;
-    flex-direction: column;
-}
+        padding: 30px;
+        flex-direction: column;
+    }
+
      .div-esquerda {
         width: 100%;
         display: flex;
@@ -172,32 +174,43 @@ form textarea {
         width: 90%;
         margin: 0 auto;
         text-align: center;
+        font-size: 16px;
+        line-height: 1.5;
     }
 
 
     .encanadores-lem {
-    height: auto;
-    width: 80%;
+        height: auto;
+        width: 80%;
     }
 
     .div-direita {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .div-header{
-    padding: 10px;
+        padding: 10px;
+        gap: 15px;
     }
 
     .logo-mario-header{
-    width: 40px;
+        width: 40px;
     }
-    
+
     .div-header a {
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    text-decoration: none;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 18px;
+}
+.mascara-video{
+    background: linear-gradient(
+        rgba(0,0,0,.85),
+        rgba(0,0,0,.75),
+        rgba(0,0,0,.85)
+    );
 }
 }
